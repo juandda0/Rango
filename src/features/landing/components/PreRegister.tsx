@@ -35,7 +35,7 @@ export default function PreRegister() {
             placeholder="tu@email.com"
             className="flex h-16 sm:h-16 px-5 sm:px-6 text-base sm:text-lg bg-white/5 backdrop-blur-sm text-white placeholder:text-gray-400 border-2 border-white/30 rounded-2xl focus:border-blue-500 focus:bg-white/10 focus:outline-none transition-all"
           />
-          <button className="group flex items-center justify-center gap-2 h-16 sm:h-16 px-6 sm:px-10 bg-blue-500 text-white font-bold rounded-2xl transition-all hover:scale-105 active:scale-95">
+          <button className="group flex items-center justify-center gap-2 h-16 sm:h-16 px-6 sm:px-10 bg-blue-400 text-white font-bold rounded-2xl transition-all hover:scale-105 active:scale-95">
             Pre-registrarme
             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
           </button>

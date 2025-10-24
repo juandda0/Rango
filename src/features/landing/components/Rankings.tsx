@@ -7,10 +7,10 @@ const exercises = ["Peso Muerto", "Sentadilla", "Press Plano"]
         {/* Título */}
         <div className="text-center mb-10">
           <h2 className="text-4xl md:text-5xl font-black mb-3">
-            Rankings de <span className="text-blue-500">Rango</span>
+            Rankings
           </h2>
           <p className="text-lg text-muted-foreground">
-            Muy pronto podrás ver quién domina en los tres básicos del powerlifting.
+            Muy pronto podrás ver quién domina en los tres básicos del powerlifting en tu ciudad.
           </p>
         </div>
 

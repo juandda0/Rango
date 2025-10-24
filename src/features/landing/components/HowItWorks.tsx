@@ -10,7 +10,7 @@ export default function HowItWorks() {
     },
     {
       icon: CheckCircle,
-      title: "Validación",
+      title: "Espera la validación",
       description:
         "Nuestro equipo revisa tu video para validar que cumple con los estándares.",
     },
@@ -28,7 +28,7 @@ export default function HowItWorks() {
         {/* Título */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">
-            ¿Cómo funciona <span className="text-blue-500">Rango</span>?
+            ¿Cómo funciona?
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
             Tres pasos simples para demostrar tu fuerza y competir con los mejores levantadores.
@@ -43,7 +43,7 @@ export default function HowItWorks() {
               className="relative group bg-white border border-gray-200 rounded-2xl p-10 h-full shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
             >
               {/* Icono circular */}
-              <div className="flex items-center justify-center w-15 h-15 bg-gray-100 text-black rounded-2xl mb-6 transition-all duration-500">
+              <div className="flex items-center justify-start w-15 h-15 text-black rounded-2xl mb-4 transition-all duration-500">
                 <step.icon className="w-8 h-8" />
               </div>
 
@@ -53,7 +53,7 @@ export default function HowItWorks() {
               </div>
 
               {/* Contenido */}
-              <h3 className="text-2xl group-hover:text-blue-500 font-bold transition-colors mb-3 text-gray-900">
+              <h3 className="text-2xl group-hover:text-blue-400 font-bold transition-colors mb-3 text-gray-900">
                 {step.title}
               </h3>
               <p className="text-gray-600 leading-relaxed">

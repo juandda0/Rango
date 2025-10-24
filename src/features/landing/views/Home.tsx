@@ -7,12 +7,14 @@ import HowItWorks from "../components/HowItWorks";
 import Nav from "../components/Nav";
 import PreRegister from "../components/PreRegister";
 import Rankings from "../components/Rankings";
+import WhatItIs from "../components/WhatIsIt";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Nav />
       <Hero />
+      <WhatItIs />
       <HowItWorks />
       <Rankings />
       <Community />

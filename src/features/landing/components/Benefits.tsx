@@ -21,7 +21,7 @@ export default function BenefitsRedesigned() {
         <div className="flex flex-col md:flex-row md:items-end justify-between max-w-5xl mx-auto mb-12">
           <div className="mb-6 md:mb-0">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-3">
-              ¿Por qué usar <span className="text-blue-500">Rango?</span>
+              Beneficios de <span className="text-blue-400">Rango</span>
             </h2>
             <h3 className="text-base sm:text-lg md:text-xl text-gray-700">
               Más que una app de rankings, es tu compañero de entrenamiento y motivación
@@ -37,7 +37,7 @@ export default function BenefitsRedesigned() {
               className="group flex flex-col md:flex-row items-start md:items-center p-6 sm:p-8 rounded-2xl 
                 bg-white shadow-md border border-gray-100 
                 hover:shadow-xl transition-all duration-300 
-                hover:bg-blue-500 hover:border-blue-500 hover:text-white"
+                hover:bg-blue-400 hover:border-blue-400 hover:text-white"
             >
               <div className="w-full md:w-1/2 mb-4 md:mb-0 md:pr-6">
                 <h3 className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-snug">

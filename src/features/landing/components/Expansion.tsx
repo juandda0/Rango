@@ -30,7 +30,7 @@ export default function Expansion() {
         {/* ===== Encabezado ===== */}
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
-            De Montería <span className="text-blue-500">al mundo</span>
+            De Montería <span className="text-blue-400">al mundo</span>
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
             Comenzamos en Montería, pero nuestra visión es global. Pronto habrá rankings nacionales e internacionales
@@ -52,12 +52,12 @@ export default function Expansion() {
 
 
                 {/* Icono */}
-                <div className="flex items-center justify-center w-14 h-14 rounded-xl mb-6 bg-gray-100 text-black transition-all duration-300">
+                <div className="flex items-center justify-center w-14 h-14 rounded-xl mb-6 text-black transition-all duration-300">
                   <phase.icon className="w-8 h-8" />
                 </div>
 
                 {/* Título */}
-                <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-500 transition-colors">
+                <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">
                   {phase.title}
                 </h3>
 
@@ -74,7 +74,6 @@ export default function Expansion() {
         {/* Etiqueta Próximamente */}
         <div className="text-center max-w-4xl mx-auto mt-12">
           <div className="inline-flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full text-sm font-semibold">
-            <Rocket className="w-4 h-4" />
             Próximamente
           </div>
         </div>
