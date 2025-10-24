@@ -6,7 +6,7 @@ export default function BenefitsRedesigned() {
     },
     {
       title: "Reconocimiento real",
-      description: "Gana reconocimiento dentro de la comunidad de levantadores de Monteía y más allá.",
+      description: "Gana reconocimiento dentro de la comunidad de levantadores de Montería y más allá.",
     },
     {
       title: "Estadísticas Claras",
