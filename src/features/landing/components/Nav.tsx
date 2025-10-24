@@ -14,6 +14,7 @@ export default function Nav() {
       // Detectar sección activa
       const sections = [
         "#home",
+        "#whatItIs",
         "#howItworks",
         "#rankings",
         "#community",
@@ -37,9 +38,10 @@ export default function Nav() {
   }, []);
 
   const links = [
+    { label: "Que Somos", href: "#whatItIs" },
     { label: "Cómo funciona", href: "#howItworks" },
     { label: "Rankings", href: "#rankings" },
-    { label: "Comunidad", href: "#community" },
+    { label: "Comunidad", href: "#community" }, 
     { label: "Beneficios", href: "#benefits" },
     { label: "Expansión", href: "#expansion" },
     { label: "Pre-regístrate", href: "#preregist" },
