@@ -28,7 +28,7 @@ export default function WhatItIs() {
           <div className="space-y-10 lg:order-1"> 
             <div className="text-start text-gray-800">
               <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">
-                ¿Qué es <span className="text-blue-500">Rango</span>?
+                ¿Qué es <span className="text-blue-400">Rango</span>?
               </h2>
               <p className="text-xl leading-relaxed text-gray-600"> 
                 Rango es una aplicación que crea un ranking real de los mejores
@@ -46,13 +46,13 @@ export default function WhatItIs() {
             <div
               className="w-full max-w-md relative bg-white border-2 border-gray-200 rounded-2xl p-6 shadow-2xl transition-all hover:scale-[1.02] duration-300" // Aumentado max-w-md
             >
-              <span className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
-                Ranking en Vivo
+              <span className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-400 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                Ranking
               </span>
 
               {/* Nombre del ejercicio */}
               <h3 className="text-xl font-extrabold text-center mb-6 text-gray-700">
-                TOP 3 en <span className="text-blue-500">Peso Muerto</span>
+                TOP 3 en <span className="text-blue-400">Peso Muerto</span>
               </h3>
 
               {/* Posiciones del Ranking con datos simulados */}
@@ -93,7 +93,7 @@ export default function WhatItIs() {
               
               {/* Botón Call-to-Action debajo del ranking para simular la vista del app */}
               <div className="mt-6 text-center">
-                   <button className="w-full py-3 text-base font-semibold rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors shadow-md hover:shadow-lg">
+                   <button className="w-full py-3 text-base font-semibold rounded-lg bg-blue-400 text-white hover:bg-blue-600 transition-colors shadow-md hover:shadow-lg">
                      Ver Ranking Completo 
                    </button>
               </div>
