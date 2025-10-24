@@ -19,7 +19,7 @@ export default function BenefitsRedesigned() {
     },
   ]
   return (
-    <section className="py-24 bg-gray-50 text-gray-900 relative overflow-hidden">
+    <section className="py-24 bg-gray-50 text-gray-900 relative overflow-hidden" id="benefits">
       <div className="container mx-auto px-6 relative z-10">
 
         <div className="flex flex-col md:flex-row md:items-end justify-between max-w-5xl mx-auto mb-8">

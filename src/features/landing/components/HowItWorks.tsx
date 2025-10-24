@@ -23,7 +23,7 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="py-24 bg-linear-to-t from-gray-50 to-white relative">
+    <section className="py-24 bg-linear-to-t from-gray-50 to-white relative" id="howItworks">
       <div className="container mx-auto px-6 lg:px-8">
         {/* Título */}
         <div className="text-center max-w-3xl mx-auto mb-16">

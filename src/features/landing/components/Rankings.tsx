@@ -2,7 +2,7 @@ export default function Rankings() {
 const exercises = ["Peso Muerto", "Sentadilla", "Press Plano"]
 
   return (
-    <section className="relative min-h-screen py-8 flex flex-col justify-center bg-secondary overflow-hidden">
+    <section className="relative min-h-screen py-8 flex flex-col justify-center bg-secondary overflow-hidden" id="rankings">
       <div className="container mx-auto px-6">
         {/* Título */}
         <div className="text-center mb-10">

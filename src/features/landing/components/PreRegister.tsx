@@ -2,7 +2,7 @@ import { ArrowRight, Infinity } from "lucide-react";
 
 export default function PreRegister() {
   return (
-    <section className="py-12 md:py-20 bg-black relative overflow-hidden">
+    <section className="py-12 md:py-20 bg-black relative overflow-hidden" id="preregist">
       {/* Efectos de fondo */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-gray-800/10 via-transparent to-transparent"></div>
       <div className="absolute inset-0 opacity-20">

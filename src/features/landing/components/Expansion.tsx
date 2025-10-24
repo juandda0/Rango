@@ -24,7 +24,7 @@ export default function Expansion() {
   ]
 
   return (
-    <section className="py-24 bg-white text-gray-800 relative overflow-hidden">
+    <section className="py-24 bg-white text-gray-800 relative overflow-hidden" id="expansion">
       <div className="container mx-auto px-6 relative z-10">
 
         {/* ===== Encabezado ===== */}
