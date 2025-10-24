@@ -29,7 +29,6 @@ export default function Nav() {
   }, []);
 
   const links = [
-    { label: "Inicio", href: "#home" },
     { label: "Como funciona", href: "#howItworks" },
     { label: "Rankings", href: "#rankings" },
     { label: "Comunidad", href: "#community" },
@@ -59,9 +58,9 @@ export default function Nav() {
                 <li key={l.href}>
                   <a
                     href={l.href}
-                    className={`text-sm sm:text-md py-2 px-3 lg:px-6 font-semibold rounded-xl transition-colors duration-300 ${
+                    className={`text-sm sm:text-md py-2 px-3 lg:px-6 font-semibold rounded-4xl transition-colors duration-300 ${
                       activeSection === l.href
-                        ? "bg-blue-500 text-white"
+                        ? "bg-black text-white"
                         : scrolled
                         ? "text-gray-800 hover:bg-blue-500 hover:text-white"
                         : "text-white hover:bg-blue-500"

@@ -19,7 +19,7 @@ export default function Hero() {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-linear-to-t from-black to-transparent"></div>
-        <div className="absolute inset-0 bg-linear-to-b from-black/40 to-transparent"></div>
+        <div className="absolute inset-0 bg-linear-to-b from-black/60 to-transparent"></div>
       </div>
 
       {/* Content */}
