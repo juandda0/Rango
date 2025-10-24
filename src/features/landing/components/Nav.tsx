@@ -46,7 +46,7 @@ export default function Nav() {
       <div className="px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between h-16" role="navigation">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-2 sm:gap-3 text-black no-underline" aria-label="Rango - ir al inicio">
+          <a href="#home" className="flex items-center text-black no-underline" aria-label="Rango - ir al inicio">
             <img src={Logo} alt="Rango Logo" className="w-12 sm:w-20 h-auto" />
             <span className={`font-bold text-xl sm:text-2xl transition-colors duration-300 ${scrolled ? "text-black" : "text-white"}`}>Rango</span>
           </a>
